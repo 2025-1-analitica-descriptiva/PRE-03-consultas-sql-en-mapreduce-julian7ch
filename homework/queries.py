@@ -4,7 +4,7 @@
 # pylint: disable=import-error
 
 # import mapreduce.run_mapreduce_job as run_mapreduce_job  # type: ignore
-from mapreduce import run_mapreduce_job
+from .mapreduce import run_mapreduce_job
 
 #
 # Columns:
@@ -179,5 +179,7 @@ def run():
 if __name__ == "__main__":
 
     run()
+
+
 
 
